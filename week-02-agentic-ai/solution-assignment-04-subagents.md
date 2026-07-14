@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-1.png)
 
 ---
 
@@ -34,19 +34,22 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku because its job is mostly pattern-matching and not deep reasoning. It checks for oversized resources, unused services, expensive instance types, or things that could be swapped for cheaper alternatives. Haiku is the kind of review that does not need heavier reasoning power like sonnet.
+From a DevOps engineer view, I think this is a practical choice: Haiku is faster and very cheaper to run, so it fits the task well without wasting compute on something that does not need it. Also, there is a nice bit of irony in it, that is, an agent whose whole purpose is saving money runs on the cheapest model available. Using Sonnet here would just be overkill for a straightforward review job.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor does not have "Write" access because its job is only to review and report, not to make changes directly. It can inspect Terraform files and flag issues like open security groups, weak IAM permissions, missing encryption, or exposed public resources but it should not be the one to edit anything.
+This follows the principle of least privilege: give the agent only the access it needs to do its job and nothing more. Keeping it read-only avoids the risk of the agent making an unreviewed change to security-sensitive infrastructure, whether from a misjudgment or something like a prompt injection slipping through. The auditor finds problems and recommends fixes — a DevOps engineer still has to review and apply them.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses inherit so it follows whatever model the main Claude Code session is running, instead of being locked to one fixed model.
+This makes sense because Terraform writing tasks vary a lot in complexity. Sometimes it is just spinning up a small S3 bucket and at other times it will be writing a full module with variables, outputs, IAM policies, and networking resources. By inheriting the model, tf-writer automatically gets access to whatever that is currently the strongest available model in the session, rather than being stuck on something outdated. Also, it keeps things consistent, such as if I upgrade my main session later, tf-writer benefits immediately without needing a manual config change.
 
 ---
 
@@ -54,13 +57,15 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-2a.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-2b.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-3a.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-3b.png)
 
 ---
 
@@ -74,13 +79,24 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-4.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5a.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5b.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5c.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5d.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5e.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5f.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5g.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5h.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5i.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5j.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5k.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-5l.png)
 
 ---
 
@@ -94,7 +110,9 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-6a.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-6b.png)
+![Week 02 Screenshorts](screenshots/Week-02-assignment-04-screenshot-6c.png)
 
 ---
 
@@ -108,7 +126,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/ToluFemiTayo/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 `__________________________`
 
@@ -116,16 +134,16 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [✅] `.claude/agents/` folder contains all 3 agent files
+- [✅] Screenshot 2 shows correct `security-auditor.md` configuration
+- [✅] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [✅] All 3 written answers completed 
+- [✅] Security auditor executed successfully
+- [✅] Cost optimizer executed successfully
+- [✅] Security report is visible with findings
+- [✅] Cost report is visible with recommendations
+- [✅] All required screenshots added
+- [✅] GitHub repo updated with agents
 
 ---
 
