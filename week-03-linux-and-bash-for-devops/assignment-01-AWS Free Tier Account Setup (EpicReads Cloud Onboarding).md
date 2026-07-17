@@ -20,19 +20,24 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is the root identity and billing container that gives you access to Amazon Web Services. It is what ties together IAM permissions, resource ownership, and cost tracking under one roof. At this stage of onboarding EpicReads, I need one now to provision and manage cloud resources. It is non-negotiable: I can not spin up a single S3 bucket, EC2 instance, or Terraform-managed resource without one. I think of it as the foundation I pour before I can build anything on top.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is Amazon's way of letting new users learn and prototype on real infrastructure without immediately paying for it. However, the rules changed significantly in July 2025, and a lot of engineers are still working off outdated assumptions. Most Free Tier benefits for new accounts last 12 months from signup. Also, some services offer "Always Free" limits that do not expire.
+If you are setting up a new account today, budget your credits like you would budget a sprint — deliberately, not by accident.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1. Amazon S3: 5 GB standard storage, 20,000 GET requests, 2,000 PUT requests per month. This is very good for static assets or small datasets, but it request costs creep up fast if you are running frequent deploys or CI/CD pipelines against it.
+
+2. AWS Lambda: 1 million requests per month, and this is part of the "Always Free" tier. It does not expire after 6 or 12 months like the others. This makes it a solid long-term building block for lightweight backend logic.
+
+3. Amazon EC2: 750 hours/month on a t2.micro or t3.micro. This is enough to run one instance 24/7 but only guaranteed if your account predates July 2025. Newer accounts just burn through their general credit pool instead, so track usage closely or you will get a surprise bill the moment your instance ticks past what is covered.
 
 ---
 
@@ -56,7 +61,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![Week 02 Screenshorts](screenshots/Week-03-assignment-01-screenshot-01.png)
 
 ---
 
@@ -70,11 +75,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [✅] Task 1 answers written in own words
+- [✅] AWS Free Tier account created successfully
+- [✅] Signed in to AWS Management Console
+- [✅] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [✅] All required screenshots added to repository
 
 ---
 

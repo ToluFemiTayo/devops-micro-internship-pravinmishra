@@ -421,7 +421,7 @@ https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-mi
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: https://www.linkedin.com/feed/update/urn:li:activity:7478925262823542784/
 - Blog / Medium : https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478919392680919040-S4dk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
 
 ---
