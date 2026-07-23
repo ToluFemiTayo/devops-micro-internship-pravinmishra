@@ -25,7 +25,13 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-01.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-02.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-03.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-04.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-05.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-06.png)
+![Task 1 Screenshot](screenshots/week-00-task-01-Using-ChatGPT-as-Your-Learning-Assistant-Screenshort-07.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +40,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I have learned that DevOps focuses on collaboration, automation, and using tools to build and deploy applications efficiently. Using ChatGPT as a learning assistant helps me break down these complex concepts (like networking protocols) into simple, real-life explanations. This makes it easier for me as a beginner to understand core areas like networking, which are necessary for succeeding in my DevOps journey. 
 
 ---
 
@@ -59,7 +65,14 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+How Users Worldwide Access EpicReads
+Imagine EpicReads is a physical store in Finland. For global customers to visit digitally, say someone types EpicReads.com in his browser, here's what happens:
+The browser first asks, "Where is epicreads.com?" A special server called DNS finds EpicReads website's IP address - a device's unique number that identifies EpicReads in Finland. This acts as the store's exact internet street address. 
+The browser then sends a request using HTTP/ HTTPS - a secure language guaranteeing safe communication. This request is broken into tiny pieces called packets through a process called packet switching.
+These packets travel across the internet through many networks using the TCP/IP protocol - a rulebook. TCP makes sure all packets arrive safely and in order, while IP handles the routing.
+The Finnish server receives the packets, processes the request, and sends the website back the same way. 
+When all the pieces reach the customer’s screen, they instantly snap back together. All of this happens in just seconds!
+This is how the internet connects people globally and can buy from EpicReads - by breaking data into packets, routing them efficiently, and reassembling them at the destination.
 
 ---
 
@@ -91,7 +104,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/week-00-task-03-Application-Architecture-and-Stack--Diagrams+Technologies-Screenshort-01.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +115,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+React.js, Vue.js, Next.js Flutter 
+React.js, Next.js, SvelteKit 
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Node.js (Express),Python (FastAPI), Go, 
+Java (Sprint Boot)
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+PostgreSQL (RDS), MongoDB (Atlas), Redis
+PostgreSQL, MySQL, Firebase, MongoDB 
 
 ---
 
@@ -142,7 +155,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+Domain Name System (DNS) is the internet's phonebook, which translates domain names (like epicreads.com) into the actual machine addresses (IP, like 52.172.142.222) that computers understand. Computers can easily locate themselves online with this translation. Users would have to type long IP addresses whenever they want to visit a website if not for the existence of DNS. Instead of long numbers, users use names and DNS direct requests correctly. 
+To connect epicreads.com to 52.172.142.222, an A record is used as it maps a domain to an IPv4 address. We should note that DNS does not handle the port (:3000). Port must be handled separately (e.g. via reverse proxy or changing the app port).
 
 ---
 
@@ -178,7 +192,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/week-00-task-05-Visual-Studio-Code-Setup-Screenshort-01.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -209,25 +223,34 @@ Clearly structure your post into the following sections:
 
 Add the following credit note at the end of your post:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community: https://discord.pravinmishra.com/**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/ToluFemiTayo.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/feed/update/urn:li:activity:7476601273061031937/
+
+Blog / Medium: https://medium.com/p/16acc233a9a0?postPublishedType=initial
 
 ```text
-Add your URL here...
+www.linkedin.com/in/omodara-tolulope-136262158
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+I am very excited and happy to start DevOps Micro Internship with Agentic AI Cohort 3 (DMI-C3) today. 
 
-Add your post content here...
+I am ready to be committed to this for the next 5 months.
+
+Starting the DevOps Micro Internship Cohort 3 journey, I found it relatively easy to understand the introductory concepts like what DevOps is, basic application architecture, the use of AI assistant agent to break down complex concepts and setting up tools like VS Code. However, it was challenging to fully grasp how networking concepts and different DevOps practices connect together as a complete workflow.
+
+Next week, I plan to take things more gradually, revisit the difficult topics, and focus on new week's lessons to build a stronger foundation.
+
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/ToluFemiTayo.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 
 ---
 
@@ -235,19 +258,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Starting the DevOps Micro Internship Cohort 3 journey, I found it relatively easy to understand the introductory concepts like what DevOps is, basic application architecture, the use of AI assistant agent to break down complex concepts and setting up tools like VS Code. 
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+However, it was challenging to fully grasp how networking concepts and different DevOps practices connect together as a complete workflow.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I plan to take things more gradually, revisit the difficult topics, and focus on new week's lessons to build a stronger foundation.
 
 ---
 
