@@ -17,8 +17,8 @@
 | **Name** | Omodara Tolulope |
 | **LinkedIn** | www.linkedin.com/in/omodara-tolulope-136262158
 | **Location** | Lagos, Nigeria |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Background** | Parasitologist, Front-End Developer, and Product Manager (AltSchool Africa graduate) with a research-driven, analytical approach to building user-centric solutions|
+| **Goal** | To expand into DevOps and Cloud Infrastructure, developing proficiency in Docker, Kubernetes, Terraform, CI/CD, and GitOps, and Train 10,000+ DevOps professionals |
 
 ---
 
@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/ToluFemiTayo/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -130,11 +130,11 @@ Week 01 → Success Mindset
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed| ✅ Solved  | — | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478925261078495233-RAbA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY | https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478919392680919040-S4dk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY |
+| 00 | Internet & Networking Basics | ✅ Completed| ✅ Solved  | https://www.linkedin.com/feed/update/urn:li:activity:7476601273061031937/ | https://medium.com/p/16acc233a9a0?postPublishedType=initial|
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/feed/update/urn:li:activity:7478925262823542784/ | https://medium.com/@omodarafemi2123/devops-micro-internship-cohort-3-what-my-version-2-0-looks-like-5f2ee7932826 |
 | 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |

@@ -99,7 +99,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 https://github.com/ToluFemiTayo/devops-micro-internship-pravinmishra.git
 
-`Add your URL here`
+`https://github.com/ToluFemiTayo/devops-micro-internship-pravinmishra.git`
 
 ---
 

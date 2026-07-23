@@ -98,13 +98,13 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 https://github.com/ToluFemiTayo/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
-`Add your URL here`
+`https://github.com/ToluFemiTayo/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ## LinkedIn post URL
 
 www.linkedin.com/in/omodara-tolulope-136262158
 
-`Add your URL here`
+`www.linkedin.com/in/omodara-tolulope-136262158`
 ---
 
 # Completion Checklist
